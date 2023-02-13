@@ -1,10 +1,10 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
 
 body {
     background-image: url("davies-designs-studio-HJa6GKpdHEA-unsplash.jpg") ;
     background-repeat: no-repeat;
     background-size: cover;
-    
+    font-family: 'Oswald', sans-serif;
 }
 
 .Head {
@@ -91,8 +91,23 @@ a:hover, a:active {
   display: block;
 }
 
+
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
   background-color: rgb(242, 245, 242);
   color: rgb(235, 22, 22);
+}
+
+
+.contacts {
+  background-color: transparent;
+  display: flex;
+  height: 80vh;
+}
+
+
+.home {
+  background-color: transparent;
+  display: flex;
+  height: 80vh;
 }
